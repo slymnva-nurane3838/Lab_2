@@ -1,0 +1,11 @@
+a=float(input('a='))
+b=float(input('b='))
+x=8
+y=0
+while x<=15:
+      if 9<=x<=12:
+             y=2*pow(a,2)+b
+      if x>12:
+             y=4*pow(b,2)-7*x
+      print('x=',x,'y=',y,'\n')
+      x+=1
